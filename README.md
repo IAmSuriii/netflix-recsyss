@@ -4,6 +4,26 @@ A collaborative filtering recommender system built on the Netflix Prize dataset,
 
 ---
 
+## Requirements
+
+Python 3.8 or higher is recommended.
+
+Install all dependencies with:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-surprise tqdm scikit-learn jupyter
+```
+
+| Package | Purpose |
+|---|---|
+| pandas, numpy | Data loading and manipulation |
+| matplotlib, seaborn | EDA visualisations |
+| scikit-surprise | SVD and KNN collaborative filtering models |
+| tqdm | Progress bars during file parsing |
+| scikit-learn | Precision, Recall, NDCG metric computation |
+| jupyter | Running the models notebook |
+
+---
 ## Repository Structure
 
 ```
