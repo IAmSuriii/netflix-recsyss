@@ -74,25 +74,6 @@ Download the Netflix Prize dataset from [Kaggle](https://www.kaggle.com/datasets
 
 ---
 
-## Requirements
-
-Python 3.8 or higher is recommended.
-
-Install all dependencies with:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-surprise tqdm
-```
-
-| Package | Purpose |
-|---|---|
-| pandas, numpy | Data loading and manipulation |
-| matplotlib, seaborn | EDA visualisations |
-| scikit-surprise | SVD and KNN collaborative filtering models |
-| tqdm | Progress bars during file parsing |
-
----
-
 ## How to Reproduce Results
 
 Run the four steps in order from the project root directory.
